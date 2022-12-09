@@ -21,7 +21,7 @@ int main(void)
 				for (o = ones + 1; o <= '9'; o++)
 				{
 					if((tens*10 + ones < t*10 + o) && 
-                        (ones < o) )
+                        (ones < o))
                     {
                         putchar(tens);
 					    putchar(ones);
