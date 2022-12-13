@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+// #ifndef _MAIN_H_
+// #define _MAIN_H_
 
 /**
  * _putchar - writes the character c to stdout
@@ -101,4 +101,4 @@ void print_to_98(int n);
 
 void print_times_table(int n);
 
-#endif
+// #endif
