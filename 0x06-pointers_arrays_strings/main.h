@@ -93,4 +93,35 @@ char *leet(char *s);
 
 void print_number(int n);
 
+/**
+ * infinite_add - adds two numbers
+ * @n1: first number
+ * @n2: second number
+ * @r: buffer for result
+ * @size_r: buffer size
+ *
+ * Return: address of r or 0
+ */
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+/**
+ * print_line - prints a s bytes of a buffer
+ * @c: buffer to print
+ * @s: bytes of buffer to print
+ * @l: line of buffer to print
+ *
+ * Return: void
+ */
+
+void print_line(char *c, int s, int l);
+
+/**
+ * print_buffer - prints a buffer
+ * @b: buffer to print
+ * @size: size of buffer
+ *
+ * Return: void
+ */
+void print_buffer(char *b, int size);
+
 #endif
